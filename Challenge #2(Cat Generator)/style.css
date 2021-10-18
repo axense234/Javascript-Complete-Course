@@ -1,0 +1,34 @@
+
+body {
+    background: linear-gradient(red, orange, green, violet, blue, indigo)
+}
+
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-box-container {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-box-container div {
+    display:flex;
+    padding:10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 2em;
+    column-gap: 2em;
+}
+
+#result {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

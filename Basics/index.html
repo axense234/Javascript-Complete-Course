@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='home.css'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id='some-text'></h1>
+    <p id='pre-current-age'>Current age:</p>
+    <p id='current-age'>-</p>
+    <p id='pre-current-name'>Current name:</p>
+    <p id='current-name'>-</p>
+    <script src='home.js'></script>
+    <script >
+        let students = `[
+            {
+                "name": "Qazi",
+                "age": 25,
+                "height": 170
+
+            },
+
+            {
+                "name": "Rafeh",
+                "age": 28,
+                "height": 180
+            }
+
+        ]`
+        console.log(JSON.parse(students)[1].age);
+    </script>
+</body>
+</html>

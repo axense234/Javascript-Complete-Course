@@ -1,0 +1,36 @@
+body {
+    background-image: url("clock 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+h2 {
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 2em;
+    text-align: center;
+
+}
+
+
+.container-1 {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-box-container-1 {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.flex-box-container-1 div {
+    display:flex;
+    padding:10px;
+    align-items: center;
+}
